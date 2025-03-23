@@ -1,0 +1,39 @@
+@import "tailwindcss";
+@config "../tailwind.config.ts";
+
+@layer base {
+  @font-face {
+    font-family: "inter";
+    src: url("/fonts/Inter-VariableFont_opsz,wght.woff2") format("woff2");
+  }
+
+  @font-face {
+    font-family: "inter-tight";
+    src: url("/fonts/InterTight-VariableFont_wght.woff2") format("woff2");
+  }
+
+  @font-face {
+    font-family: "poppins-regular";
+    src: url("/fonts/Poppins-Regular.woff2") format("woff2");
+  }
+
+  @font-face {
+    font-family: "poppins-medium";
+    src: url("/fonts/Poppins-Medium.woff2") format("woff2");
+  }
+
+  @font-face {
+    font-family: "poppins-extrabold";
+    src: url("/fonts/Poppins-ExtraBold.woff2") format("woff2");
+  }
+
+  @font-face {
+    font-family: "jetbrains-mono";
+    src: url("/fonts/JetBrainsMono-Italic-VariableFont_wght.woff2")
+      format("woff2");
+  }
+}
+
+body {
+  font-family: "inter";
+}
