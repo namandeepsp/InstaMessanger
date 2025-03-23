@@ -34,6 +34,54 @@
   }
 }
 
+/* Default (Light Mode) */
+:root {
+  --color-primary: #2563eb; /* Blue */
+  --color-secondary: #9333ea; /* Purple */
+  --color-background: #ffffff;
+  --color-text: #111827;
+}
+
+/* Default Dark Mode */
+.dark {
+  --color-primary: #1e40af;
+  --color-secondary: #7e22ce;
+  --color-background: #111827;
+  --color-text: #f3f4f6;
+}
+
+/* Green Theme */
+.theme-green {
+  --color-primary: #10b981; /* Green */
+  --color-secondary: #065f46;
+  --color-background: #ecfdf5;
+  --color-text: #064e3b;
+}
+
+/* Green Theme Dark */
+.dark.theme-green {
+  --color-primary: #047857;
+  --color-secondary: #065f46;
+  --color-background: #022c22;
+  --color-text: #d1fae5;
+}
+
+/* Red Theme */
+.theme-red {
+  --color-primary: #dc2626; /* Red */
+  --color-secondary: #b91c1c;
+  --color-background: #fef2f2;
+  --color-text: #7f1d1d;
+}
+
+/* Red Theme Dark */
+.dark.theme-red {
+  --color-primary: #b91c1c;
+  --color-secondary: #7f1d1d;
+  --color-background: #1f2937;
+  --color-text: #fef2f2;
+}
+
 body {
   font-family: "inter";
 }
