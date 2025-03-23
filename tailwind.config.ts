@@ -26,7 +26,12 @@ export default {
       borderRadius: {
         "4xl": "2rem",
       },
-      colors: {},
+      colors: {
+        primary: "var(--color-primary)",
+        secondary: "var(--color-secondary)",
+        background: "var(--color-background)",
+        text: "var(--color-text)",
+      },
     },
   },
   plugins: [
